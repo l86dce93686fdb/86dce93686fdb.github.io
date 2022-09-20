@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="stylesheet" href="/style/index.css">
+	<link rel="stylesheet" href="style.css">
+    <script src="load.js"></script>
+    <title></title>
+</head>
+
+<body class=gameroom>
+<iframe width="" height="" style="position:fixed;min-height:100%;min-width:100%;height:100%;width:100%;top:0%;left:0%;resize:none" src="/index.html" allowfullscreen="true" scrolling="no"></iframe>
+</body>
+</body>
+
+<div class="loader"> 
+
+<a href="">
+<iframe width="" height="" style="position:fixed;min-height:100%;min-width:100%;height:100%;width:100%;top:0%;left:0%;resize:none" src="/pages/random/index.html" allowfullscreen="true" scrolling="no"></iframe>
+</a>
+</div>
+<div>
+ 
+<img class="img" src="Loader" alt="">
+ <div id="">
+<script src="load.js"></script>
+
+</div>
+
+<script>
+    var contentID;
+    s = location.search;
+    if (s != '') {
+        var split = s.split('=');
+        contentID = split[1];
+    }
+    document.querySelector('iframe').setAttribute('src', contentID)
+</script>
+
+</html>

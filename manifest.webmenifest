@@ -1,0 +1,85 @@
+{
+  "lang": "en",
+  "name": "",
+  "description": "",
+  "short_name": "",
+  "icons": [{
+    "src": "/images/b512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },
+  {
+    "src": "/images/maskable.png",
+    "sizes": "196x196",
+    "type": "image/png",
+    "purpose": "maskable"
+  },
+  {
+    "src": "/images/b192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "/images/b96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  },
+  {
+			"src": "/images/b300.png",
+			"sizes": "300x300",
+      "type": "image/png"
+		},
+		{
+			"src": "/images/b180.png",
+			"sizes": "180x180",
+      "type": "image/png"
+		},
+		{
+			"src": "/images/b152.png",
+			"sizes": "152x152",
+      "type": "image/png"
+		}
+  ],
+  "display": "standalone",
+  "start_url": ".",
+  "background_color": "#FE8965",
+  "theme_color": "#f13838",
+  "categories": ["games"],
+    "shortcuts" : [
+  {
+    "name": "Search Game",
+    "url": "pages/category.html",
+    "description": "Categories and Search games",
+    "icons": [
+        {
+          "src": "/images/search.png",
+          "type": "image/png",
+          "sizes":"192x192",
+          "purpose": "any"
+        }
+      ]
+  },
+  {
+    "name": "",
+    "url": "",
+    "icons": [
+        {
+          "src": "/images/tank.png",
+          "sizes":"192x192",
+          "type": "image/png"
+        }
+      ]
+  },
+  {
+    "name": "",
+    "url": "",
+    "icons": [
+        {
+          "src": "/images/target.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+  }
+]
+}

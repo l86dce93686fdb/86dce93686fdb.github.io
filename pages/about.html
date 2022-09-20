@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=description
+        content="This is an about page of hgames.in this page you will what is this website realy do and who made this possible.">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css> <link
+        rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <meta name="theme-color" content="#f13838" />
+    <link rel="stylesheet" href="/style/index.css">
+	<link rel="stylesheet" type="text/css" href="css/wow-alert.css">
+<link rel="stylesheet" type="text/css" href="css/example.css">
+    <title></title>
+</head>
+
+<body class="about-body">
+    <header>
+        <nav class="navbar wrapper">
+            <span class="navbar-toggle js-nav">
+                <i class="fa fa-bars"></i>
+            </span>
+            <a href=/index.html class='logo bounce-in-fwd'><img src=/images/lng.png alt=HGames_Logo></a>
+            <ul class="main-nav js-menu">
+                <li>
+                    <a href=/index.html>Play </a> </li> <li>
+                        <a href=/pages/category.html>Search </a> </li> <li>
+                            <a class=active href=/pages/about.html>Get Premium </a> </li> </ul> </nav> </header> <div
+                                class="about-section">
+                                <h2>About</h2>
+                                <hr>
+                                <p>LustProject Gaming Plataform</p>
+                                <h3>Follow, Join and Support us! (Patreon for Premium!)</h3>
+								
+                            <button onclick="wow_default_alert()"><p hidden id="p1">https://www.youtube.com/channel/UCThZQqSvSaKx5uIReQfSUAg/videos</p><img src="../images/lng-youtube.png" 
+							class='contact hvr-wobble-skew' alt=Youtube onclick="copyToClipboard('#p1')"></a></button>
+							  
+							<button onclick="wow_default_alert()"><p hidden id="p2">https://www.instagram.com/lustpjct/</p><img src="../images/lng-instagram.png" 
+							class='contact hvr-wobble-skew' alt=Instagram onclick="copyToClipboard('#p2')"></a></button>
+							
+							<button onclick="wow_default_alert()"><p hidden id="p3">https://www.patreon.com/Lustgame</p><img src="../images/lng-patreon.png" 
+							class='contact hvr-wobble-skew' alt=Patreon onclick="copyToClipboard('#p3')"></a></button>
+								
+							<button hidden onclick="wow_default_alert()"><p hidden id="p1">https://duckduckgo.com/</p><img src="../images/segasaturn.png" 
+							class='contact hvr-wobble-skew' onclick="copyToClipboard('#p1')"></a></button>
+							
+                            </div>
+
+                            </div>
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
+<script type="text/javascript" src="js/wow-alert.js"></script>
+<script type="text/javascript" src="js/example.js"></script>
+
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
+<script>
+    document.querySelector('.js-nav').addEventListener('click', () => {
+        document.querySelector('ul').classList.toggle('slide');
+    });
+</script>
+
+</html>
