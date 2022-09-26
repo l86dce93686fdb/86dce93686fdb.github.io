@@ -3,7 +3,7 @@ const cathide = document.querySelector('.cathide');
 const headlineca = document.querySelector('.headlineCa');
 const main = document.querySelector('.main');
 let g = location.search;
-let cats = ["Fighting", "RPG", "Puzzle", "Mini-Games", "NeoGeo", "Arcade", "Racing"];
+let cats = ["Fighting", "RPG", "Puzzle", "Mini-Games", "NeoGeo", "Arcade", "Racing, Plataformer"];
 document.querySelector('.catbox').innerHTML = cats.map(e => {
     return `<a class="cata" href=?tag=${e}>${e}</a>`
 });
